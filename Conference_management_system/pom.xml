@@ -39,7 +39,7 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- The database (manually added)-->
+        <!-- The vanier.conference_management_system.database (manually added)-->
         <dependency>
             <groupId>org.xerial</groupId>
             <artifactId>sqlite-jdbc</artifactId>
