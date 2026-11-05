@@ -3,7 +3,7 @@ PRAGMA foreign_keys = ON;
 INSERT INTO users (user_id, first_name, last_name, email, phone, organization, role) VALUES
     (1, 'System', 'Administrator', 'admin@conference.local', '+1-222-0001', 'Conference Main', 'ADMIN'),
     (2, 'Credo', 'Dotse', 'credo.dotse@example.com', '+1-222-0102', 'Vanier', 'PARTICIPANT'),
-    (3, 'John', 'Benedict', 'john.benedict@example.com', '+1-222-0101', 'Vanier', 'PARTICIPANT'),
+    (3, 'John Benedict', 'Castrvoerde', 'john.castroverde@example.com', '+1-222-0101', 'Vanier', 'PARTICIPANT'),
     (4, 'Giuliano', 'Di Fulvio', 'giuliano.difulvio@example.com', '+1-555-0103', 'Vanier', 'PARTICIPANT');
 
 INSERT INTO credentials (user_id, username, password_hash) VALUES

@@ -1,5 +1,6 @@
 PRAGMA foreign_keys = ON;
 
+-- Every available user will be in this table
 CREATE TABLE users (
     user_id INTEGER PRIMARY KEY AUTOINCREMENT,
     first_name TEXT NOT NULL,
@@ -11,13 +12,15 @@ CREATE TABLE users (
     created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
 
+-- Set of credentials a user will use when logging in
 CREATE TABLE credentials (
     user_id INTEGER PRIMARY KEY,
     username TEXT NOT NULL UNIQUE,
     password_hash TEXT NOT NULL,
-    FOREIGN KEY (user_id) REFERENCES users(user_id) ON DELETE CASCADE
+    FOREIGN KEY (user_id) REFERENCES users(user_id) ON DELETE CASCADE   -- The user the credentials belong to
 );
 
+-- Every available conference will be in this table
 CREATE TABLE conferences (
     conference_id INTEGER PRIMARY KEY AUTOINCREMENT,
     title TEXT NOT NULL,
@@ -34,7 +37,7 @@ CREATE TABLE conferences (
     CHECK (date(registration_open_date) <= date(registration_close_date))
 );
 
-
+-- A registration is created when a user enters a conference
 CREATE TABLE registrations (
     registration_id INTEGER PRIMARY KEY AUTOINCREMENT,
     conference_id INTEGER NOT NULL,
@@ -43,8 +46,8 @@ CREATE TABLE registrations (
     waiting_position INTEGER,
     registered_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
     UNIQUE (conference_id, user_id),
-    FOREIGN KEY (conference_id) REFERENCES conferences(conference_id) ON DELETE CASCADE,
-    FOREIGN KEY (user_id) REFERENCES users(user_id) ON DELETE CASCADE,
+    FOREIGN KEY (conference_id) REFERENCES conferences(conference_id) ON DELETE CASCADE,    -- The conference the registration is for
+    FOREIGN KEY (user_id) REFERENCES users(user_id) ON DELETE CASCADE,  -- The user who registered
     CHECK (
         (status = 'WAITLISTED' AND waiting_position IS NOT NULL AND waiting_position > 0)
         OR (status IN ('CONFIRMED', 'CANCELLED') AND waiting_position IS NULL)
