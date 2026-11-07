@@ -1,0 +1,82 @@
+<mxfile host="drawio-plugin" modified="2026-11-07T05:47:01.979Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="22.1.22" etag="FaddatJ7Lx2cw5jx1h4e" type="embed">
+  <diagram name="Page-1" id="HcheGml0rbOwpNzuIVzC">
+    <mxGraphModel dx="979" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="H6S37EjeQkoc6GpvtnUp-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry width="640" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="H6S37EjeQkoc6GpvtnUp-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry width="640" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="H6S37EjeQkoc6GpvtnUp-3" value="-&amp;nbsp; &amp;nbsp; &amp;nbsp;◻&amp;nbsp; &amp;nbsp; &amp;nbsp;x" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="570" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="H6S37EjeQkoc6GpvtnUp-4" value="Window name" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
+          <mxGeometry width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="H6S37EjeQkoc6GpvtnUp-23" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry y="20" width="130" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="H6S37EjeQkoc6GpvtnUp-24" value="View Profile" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="10" y="70" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="H6S37EjeQkoc6GpvtnUp-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry y="20" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H6S37EjeQkoc6GpvtnUp-6" value="ConCentral" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="20" y="25" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H6S37EjeQkoc6GpvtnUp-26" value="Join a Conference" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="10" y="90" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="H6S37EjeQkoc6GpvtnUp-27" value="Conference 1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="310" y="35" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H6S37EjeQkoc6GpvtnUp-69" value="Registered Conferences" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="10" y="110" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jW4-P6EHnHJNGexmd_pk-21" value="&lt;font style=&quot;&quot;&gt;Location: Palais des Congr&lt;span style=&quot;font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif, &amp;quot;Noto Color Emoji&amp;quot;;&quot;&gt;ès&lt;/span&gt;&lt;/font&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=10;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="161" y="300" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jW4-P6EHnHJNGexmd_pk-22" value="End: October 21, 18:00" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="161" y="280" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jW4-P6EHnHJNGexmd_pk-23" value="Start: October 21, 13:00" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="161" y="260" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jW4-P6EHnHJNGexmd_pk-24" value="Capacity: 126" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="161" y="240" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jW4-P6EHnHJNGexmd_pk-25" value="ID: 12345" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="161" y="220" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jW4-P6EHnHJNGexmd_pk-26" value="Insert image" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" parent="1" vertex="1">
+          <mxGeometry x="151" y="80" width="209" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="jW4-P6EHnHJNGexmd_pk-27" value="About" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="390" y="105" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jW4-P6EHnHJNGexmd_pk-28" value="lorem ipsum&amp;nbsp; lorem ipsum&amp;nbsp; lorem ipsum&amp;nbsp; lorem ipsum&amp;nbsp; lorem ipsum&amp;nbsp; lorem ipsum&amp;nbsp; lorem ipsum&amp;nbsp; lorem ipsum&amp;nbsp; lorem ipsum&amp;nbsp; lorem ipsum&amp;nbsp; lorem ipsum&amp;nbsp; lorem ipsum&amp;nbsp; lorem ipsum&amp;nbsp; lorem ipsum&amp;nbsp; lorem ipsum&amp;nbsp; lorem ipsum&amp;nbsp; lorem ipsum&amp;nbsp; lorem ipsum&amp;nbsp; lorem ipsum&amp;nbsp; lorem ipsum&amp;nbsp; lorem ipsum&amp;nbsp; lorem ipsum&amp;nbsp; lorem ipsum&amp;nbsp; lorem ipsum&amp;nbsp; lorem ipsum&amp;nbsp; lorem ipsum&amp;nbsp; lorem ipsum&amp;nbsp; lorem ipsum&amp;nbsp; lorem ipsum&amp;nbsp; lorem ipsum&amp;nbsp; lorem ipsum&amp;nbsp; lorem ipsum&amp;nbsp; lorem ipsum&amp;nbsp; lorem ipsum&amp;nbsp; lorem ipsum&amp;nbsp; lorem ipsum&amp;nbsp; lorem ipsum&amp;nbsp; lorem ipsum&amp;nbsp; lorem ipsum&amp;nbsp; lorem ipsum&amp;nbsp; lorem ipsum&amp;nbsp;&amp;nbsp;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="390" y="125" width="215" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="jW4-P6EHnHJNGexmd_pk-33" value="Cancel registration" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="570" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jW4-P6EHnHJNGexmd_pk-34" value="Go back" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="140" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LlEyWaIESpqha7TcHpZ3-2" value="Status:" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="390" y="80" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LlEyWaIESpqha7TcHpZ3-3" value="Waiting" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="440" y="80" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2" value="Applied Conferences" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="10" y="130" width="120" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
