@@ -1,0 +1,17 @@
+vanier\conference_management_system\model\Registration.class
+vanier\conference_management_system\Application.class
+vanier\conference_management_system\model\Conference.class
+vanier\conference_management_system\database\DataAccessException.class
+vanier\conference_management_system\model\Credential.class
+vanier\conference_management_system\dao\RegistrationDao.class
+vanier\conference_management_system\dao\UserDao.class
+vanier\conference_management_system\model\ConferenceStatus.class
+vanier\conference_management_system\model\Role.class
+module-info.class
+vanier\conference_management_system\Launcher.class
+vanier\conference_management_system\dao\ConferenceDao.class
+vanier\conference_management_system\model\User.class
+vanier\conference_management_system\Controller.class
+vanier\conference_management_system\dao\CredentialDao.class
+vanier\conference_management_system\database\Database.class
+vanier\conference_management_system\model\RegistrationStatus.class

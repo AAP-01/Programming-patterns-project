@@ -16,7 +16,7 @@ CREATE TABLE users (
 CREATE TABLE credentials (
     user_id INTEGER PRIMARY KEY,
     username TEXT NOT NULL UNIQUE,
-    password_hash TEXT NOT NULL,
+    password TEXT NOT NULL,
     FOREIGN KEY (user_id) REFERENCES users(user_id) ON DELETE CASCADE   -- The user the credentials belong to
 );
 

@@ -18,11 +18,11 @@ public class CredentialDao {
 
     private static final Logger LOGGER = Logger.getLogger(CredentialDao.class.getName());
 
-    private static final String INSERT = "INSERT INTO credentials (user_id, username, password_hash) VALUES (?, ?, ?)";
+    private static final String INSERT = "INSERT INTO credentials (user_id, username, password) VALUES (?, ?, ?)";
     private static final String SELECT_BY_USER_ID = "SELECT * FROM credentials WHERE user_id = ?";
     private static final String SELECT_BY_USERNAME = "SELECT * FROM credentials WHERE username = ?";
     private static final String SELECT_ALL = "SELECT * FROM credentials ORDER BY user_id";
-    private static final String UPDATE = "UPDATE credentials SET username = ?, password_hash = ? WHERE user_id = ?";
+    private static final String UPDATE = "UPDATE credentials SET username = ?, password = ? WHERE user_id = ?";
     private static final String DELETE = "DELETE FROM credentials WHERE user_id = ?";
 
     public Credential create(Credential credential) {
@@ -30,7 +30,7 @@ public class CredentialDao {
              PreparedStatement ps = connection.prepareStatement(INSERT)) {
             ps.setInt(1, credential.getUserId());
             ps.setString(2, credential.getUsername());
-            ps.setString(3, credential.getPasswordHash());
+            ps.setString(3, credential.getPassword());
             ps.executeUpdate();
             return credential;
         } catch (SQLException e) {
@@ -84,7 +84,7 @@ public class CredentialDao {
         try (Connection connection = Database.getConnection();
              PreparedStatement ps = connection.prepareStatement(UPDATE)) {
             ps.setString(1, credential.getUsername());
-            ps.setString(2, credential.getPasswordHash());
+            ps.setString(2, credential.getPassword());
             ps.setInt(3, credential.getUserId());
             return ps.executeUpdate() == 1;
         } catch (SQLException e) {
@@ -105,6 +105,6 @@ public class CredentialDao {
     }
 
     private Credential mapRow(ResultSet rs) throws SQLException {
-        return new Credential(rs.getInt("user_id"), rs.getString("username"), rs.getString("password_hash"));
+        return new Credential(rs.getInt("user_id"), rs.getString("username"), rs.getString("password"));
     }
 }

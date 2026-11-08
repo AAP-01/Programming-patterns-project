@@ -109,10 +109,10 @@ class UserDaoTest {
     void credentialCrud() {
         User user = userDao.create(new User("Alex", "Vilvert", "vilvalex@example.com", null, null, Role.PARTICIPANT));
         credentialDao.create(new Credential(user.getUserId(), "AlexStein", "password"));
-        assertEquals("password", credentialDao.findByUsername("AlexStein").orElseThrow().getPasswordHash());
+        assertEquals("password", credentialDao.findByUsername("AlexStein").orElseThrow().getPassword());
 
         assertTrue(credentialDao.update(new Credential(user.getUserId(), "Mohand", "password1")));
-        assertEquals("password1", credentialDao.findByUserId(user.getUserId()).orElseThrow().getPasswordHash());
+        assertEquals("password1", credentialDao.findByUserId(user.getUserId()).orElseThrow().getPassword());
 
         assertTrue(credentialDao.delete(user.getUserId()));
         assertTrue(credentialDao.findByUsername("Alex").isEmpty());

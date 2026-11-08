@@ -6,7 +6,7 @@ INSERT INTO users (user_id, first_name, last_name, email, phone, organization, r
     (3, 'John Benedict', 'Castrvoerde', 'john.castroverde@example.com', '+1-222-0101', 'Vanier', 'PARTICIPANT'),
     (4, 'Giuliano', 'Di Fulvio', 'giuliano.difulvio@example.com', '+1-555-0103', 'Vanier', 'PARTICIPANT');
 
-INSERT INTO credentials (user_id, username, password_hash) VALUES
+INSERT INTO credentials (user_id, username, password) VALUES
     (1, 'admin', 'admin123'),
     (2, 'credo', 'demoPassword1'),
     (3, 'john', 'demoPassword2'),

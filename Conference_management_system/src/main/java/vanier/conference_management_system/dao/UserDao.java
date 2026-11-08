@@ -29,7 +29,7 @@ public class UserDao {
             "UPDATE users SET first_name = ?, last_name = ?, email = ?, phone = ?, organization = ?, role = ? WHERE user_id = ?";
     private static final String DELETE = "DELETE FROM users WHERE user_id = ?";
     private static final String INSERT_CREDENTIAL =
-            "INSERT INTO credentials (user_id, username, password_hash) VALUES (?, ?, ?)";
+            "INSERT INTO credentials (user_id, username, password) VALUES (?, ?, ?)";
 
     public User create(User user) {
         try (Connection connection = Database.getConnection()) {
@@ -41,7 +41,7 @@ public class UserDao {
         }
     }
 
-    public User createWithCredentials(User user, String username, String passwordHash) {
+    public User createWithCredentials(User user, String username, String password) {
         try (Connection connection = Database.getConnection()) {
             connection.setAutoCommit(false);
             try {
@@ -49,7 +49,7 @@ public class UserDao {
                 try (PreparedStatement ps = connection.prepareStatement(INSERT_CREDENTIAL)) {
                     ps.setInt(1, user.getUserId());
                     ps.setString(2, username);
-                    ps.setString(3, passwordHash);
+                    ps.setString(3, password);
                     ps.executeUpdate();
                 }
                 connection.commit();

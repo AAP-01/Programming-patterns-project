@@ -4,15 +4,15 @@ public class Credential {
 
     private int userId;
     private String username;
-    private String passwordHash;
+    private String password;
 
     public Credential() {
     }
 
-    public Credential(int userId, String username, String passwordHash) {
+    public Credential(int userId, String username, String password) {
         this.userId = userId;
         this.username = username;
-        this.passwordHash = passwordHash;
+        this.password = password;
     }
 
     public int getUserId() { return userId; }
@@ -21,8 +21,8 @@ public class Credential {
     public String getUsername() { return username; }
     public void setUsername(String username) { this.username = username; }
 
-    public String getPasswordHash() { return passwordHash; }
-    public void setPasswordHash(String passwordHash) { this.passwordHash = passwordHash; }
+    public String getPassword() { return password; }
+    public void setPassword(String password) { this.password = password; }
 
     @Override
     public String toString() {

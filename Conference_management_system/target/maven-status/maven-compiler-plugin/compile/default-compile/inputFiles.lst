@@ -1,0 +1,17 @@
+C:\Users\dotse\OneDrive\Documents\GitHub\Programming-patterns-project\Conference_management_system\src\main\java\module-info.java
+C:\Users\dotse\OneDrive\Documents\GitHub\Programming-patterns-project\Conference_management_system\src\main\java\vanier\conference_management_system\Application.java
+C:\Users\dotse\OneDrive\Documents\GitHub\Programming-patterns-project\Conference_management_system\src\main\java\vanier\conference_management_system\Controller.java
+C:\Users\dotse\OneDrive\Documents\GitHub\Programming-patterns-project\Conference_management_system\src\main\java\vanier\conference_management_system\dao\ConferenceDao.java
+C:\Users\dotse\OneDrive\Documents\GitHub\Programming-patterns-project\Conference_management_system\src\main\java\vanier\conference_management_system\dao\CredentialDao.java
+C:\Users\dotse\OneDrive\Documents\GitHub\Programming-patterns-project\Conference_management_system\src\main\java\vanier\conference_management_system\dao\RegistrationDao.java
+C:\Users\dotse\OneDrive\Documents\GitHub\Programming-patterns-project\Conference_management_system\src\main\java\vanier\conference_management_system\dao\UserDao.java
+C:\Users\dotse\OneDrive\Documents\GitHub\Programming-patterns-project\Conference_management_system\src\main\java\vanier\conference_management_system\database\DataAccessException.java
+C:\Users\dotse\OneDrive\Documents\GitHub\Programming-patterns-project\Conference_management_system\src\main\java\vanier\conference_management_system\database\Database.java
+C:\Users\dotse\OneDrive\Documents\GitHub\Programming-patterns-project\Conference_management_system\src\main\java\vanier\conference_management_system\Launcher.java
+C:\Users\dotse\OneDrive\Documents\GitHub\Programming-patterns-project\Conference_management_system\src\main\java\vanier\conference_management_system\model\Conference.java
+C:\Users\dotse\OneDrive\Documents\GitHub\Programming-patterns-project\Conference_management_system\src\main\java\vanier\conference_management_system\model\ConferenceStatus.java
+C:\Users\dotse\OneDrive\Documents\GitHub\Programming-patterns-project\Conference_management_system\src\main\java\vanier\conference_management_system\model\Credential.java
+C:\Users\dotse\OneDrive\Documents\GitHub\Programming-patterns-project\Conference_management_system\src\main\java\vanier\conference_management_system\model\Registration.java
+C:\Users\dotse\OneDrive\Documents\GitHub\Programming-patterns-project\Conference_management_system\src\main\java\vanier\conference_management_system\model\RegistrationStatus.java
+C:\Users\dotse\OneDrive\Documents\GitHub\Programming-patterns-project\Conference_management_system\src\main\java\vanier\conference_management_system\model\Role.java
+C:\Users\dotse\OneDrive\Documents\GitHub\Programming-patterns-project\Conference_management_system\src\main\java\vanier\conference_management_system\model\User.java
