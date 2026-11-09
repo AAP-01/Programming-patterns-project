@@ -20,16 +20,13 @@ public class UserDao {
 
     private static final Logger LOGGER = Logger.getLogger(UserDao.class.getName());
 
-    private static final String INSERT =
-            "INSERT INTO users (first_name, last_name, email, phone, organization, role) VALUES (?, ?, ?, ?, ?, ?)";
+    private static final String INSERT = "INSERT INTO users (first_name, last_name, email, phone, organization, role) VALUES (?, ?, ?, ?, ?, ?)";
     private static final String SELECT_BY_ID = "SELECT * FROM users WHERE user_id = ?";
     private static final String SELECT_BY_EMAIL = "SELECT * FROM users WHERE email = ?";
     private static final String SELECT_ALL = "SELECT * FROM users ORDER BY user_id";
-    private static final String UPDATE =
-            "UPDATE users SET first_name = ?, last_name = ?, email = ?, phone = ?, organization = ?, role = ? WHERE user_id = ?";
+    private static final String UPDATE = "UPDATE users SET first_name = ?, last_name = ?, email = ?, phone = ?, organization = ?, role = ? WHERE user_id = ?";
     private static final String DELETE = "DELETE FROM users WHERE user_id = ?";
-    private static final String INSERT_CREDENTIAL =
-            "INSERT INTO credentials (user_id, username, password) VALUES (?, ?, ?)";
+    private static final String INSERT_CREDENTIAL = "INSERT INTO credentials (user_id, username, password) VALUES (?, ?, ?)";
 
     public User create(User user) {
         try (Connection connection = Database.getConnection()) {

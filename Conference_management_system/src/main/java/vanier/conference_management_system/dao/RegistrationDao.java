@@ -66,8 +66,7 @@ public class RegistrationDao {
     }
 
     public boolean update(Registration r) {
-        String sql = "UPDATE registrations SET conference_id = ?, user_id = ?, status = ?, "
-                + "waiting_position = ? WHERE registration_id = ?";
+        String sql = "UPDATE registrations SET conference_id = ?, user_id = ?, status = ?, " + "waiting_position = ? WHERE registration_id = ?";
         try (Connection c = Database.getConnection();
              PreparedStatement ps = c.prepareStatement(sql)) {
             ps.setInt(1, r.getConferenceId());
@@ -118,8 +117,7 @@ public class RegistrationDao {
                 if (confirmed < capacity) {
                     result = insert(c, new Registration(conferenceId, userId, RegistrationStatus.CONFIRMED, null));
                     if (confirmed + 1 >= capacity) {
-                        try (PreparedStatement ps = c.prepareStatement(
-                                "UPDATE conferences SET status = 'FULL' WHERE conference_id = ?")) {
+                        try (PreparedStatement ps = c.prepareStatement("UPDATE conferences SET status = 'FULL' WHERE conference_id = ?")) {
                             ps.setInt(1, conferenceId);
                             ps.executeUpdate();
                         }
@@ -127,16 +125,14 @@ public class RegistrationDao {
                 } else {
                     int nextPosition;
                     try (PreparedStatement ps = c.prepareStatement(
-                            "SELECT COALESCE(MAX(waiting_position), 0) + 1 FROM registrations "
-                                    + "WHERE conference_id = ? AND status = 'WAITLISTED'")) {
+                            "SELECT COALESCE(MAX(waiting_position), 0) + 1 FROM registrations " + "WHERE conference_id = ? AND status = 'WAITLISTED'")) {
                         ps.setInt(1, conferenceId);
                         try (ResultSet rs = ps.executeQuery()) {
                             rs.next();
                             nextPosition = rs.getInt(1);
                         }
                     }
-                    result = insert(c, new Registration(conferenceId, userId,
-                            RegistrationStatus.WAITLISTED, nextPosition));
+                    result = insert(c, new Registration(conferenceId, userId, RegistrationStatus.WAITLISTED, nextPosition));
                 }
                 c.commit();
                 return result;

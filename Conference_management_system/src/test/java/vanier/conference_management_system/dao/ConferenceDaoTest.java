@@ -32,10 +32,7 @@ class ConferenceDaoTest {
     }
 
     private Conference sampleConference() {
-        return new Conference("Teacher Conference Meeting About Tests", "All about making tests easier for students", "Room D243",
-                LocalDate.of(2026, 12, 1), LocalDate.of(2026, 12, 2),
-                LocalDate.of(2026, 11, 1), LocalDate.of(2026, 11, 25),
-                30, ConferenceStatus.OPEN);
+        return new Conference("Teacher Conference Meeting About Tests", "All about making tests easier for students", "Room D243", LocalDate.of(2026, 12, 1), LocalDate.of(2026, 12, 2), LocalDate.of(2026, 11, 1), LocalDate.of(2026, 11, 25), 30, ConferenceStatus.OPEN);
     }
 
     @Test
