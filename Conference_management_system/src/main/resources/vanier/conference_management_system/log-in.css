@@ -1,0 +1,20 @@
+.background
+{
+    -fx-background-color: gray;
+}
+
+.title-label
+{
+    -fx-background-color: #b9b9b9;
+    -fx-border-radius: 20px;
+    -fx-border-color: black;
+    -fx-background-radius: 20px;
+}
+
+.log-in-vbox
+{
+    -fx-border-color: #000000;
+    -fx-border-radius: 20px;
+    -fx-background-color: white;
+    -fx-background-radius: 20px;
+}

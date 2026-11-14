@@ -9,10 +9,11 @@ import java.io.IOException;
 public class Application extends javafx.application.Application {
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(Application.class.getResource("hello-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 320, 240);
-        stage.setTitle("Hello!");
+        FXMLLoader fxmlLoader = new FXMLLoader(Application.class.getResource("log-in.fxml"));
+        Scene scene = new Scene(fxmlLoader.load());
+        stage.setTitle("ConCentral");
         stage.setScene(scene);
+        stage.setMaximized(true);   // Covers the whole screen while showing the task bar on top
         stage.show();
     }
 }

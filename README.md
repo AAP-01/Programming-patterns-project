@@ -9,8 +9,8 @@ Where to put your stuff:
 - **Final_Project_Instructions_and_Deliverables_Management_System.docx**: the instructions for the deliverables
 - **Conference_Management_System.pdf**: shows everything that has to be in the program
 - **Program sketches**: sketches of JavaFX scenes in the program
-
-For internationalization and localization put your .resources files in src/main/java/resources
+- **src/main/java/resources**: .resources files
+- **src/main/java/resources/vanier.conference_management_system**: .fxml files
 
 Do not touch the target directory and pom.xml unless you have to (let the others know before or leave a comment explaining)
 
