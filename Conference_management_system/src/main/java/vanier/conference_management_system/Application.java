@@ -13,7 +13,12 @@ public class Application extends javafx.application.Application {
         Scene scene = new Scene(fxmlLoader.load());
         stage.setTitle("ConCentral");
         stage.setScene(scene);
+
+        // Configurations (optional)
         stage.setMaximized(true);   // Covers the whole screen while showing the task bar on top
+        stage.setMinWidth(1920);
+        stage.setMinHeight(1080);
+
         stage.show();
     }
 }

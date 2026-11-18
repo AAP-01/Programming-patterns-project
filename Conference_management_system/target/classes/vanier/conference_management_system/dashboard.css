@@ -1,0 +1,38 @@
+.background
+{
+    -fx-background: gray;
+}
+
+.title-label
+{
+    -fx-background-color: #b9b9b9;
+    -fx-border-radius: 10px;
+    -fx-border-color: black;
+    -fx-background-radius: 10px;
+}
+
+.side-bar
+{
+    -fx-border-color: black;
+}
+
+.side-bar-label
+{
+    -fx-border-color: black;
+    -fx-background-color: white;
+}
+
+.side-bar-button
+{
+    -fx-background-color: transparent;
+}
+
+.side-bar-button:hover
+{
+    -fx-background-color: #535353;
+}
+
+.test
+{
+    -fx-background-color: red;
+}
