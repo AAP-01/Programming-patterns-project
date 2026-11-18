@@ -66,10 +66,57 @@ public class Controller
 
     // In registered-conferences.fxml
     @FXML
+    protected void onViewProfileButtonClick(ActionEvent actionEvent) throws IOException
+    {
+        Parent root = FXMLLoader.load(getClass().getResource("view-profile.fxml"));
+        Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
+        stage.getScene().setRoot(root);
+    }
+
+    @FXML
+    protected void onJoinConferenceButtonClick(ActionEvent actionEvent) throws IOException
+    {
+        Parent root = FXMLLoader.load(getClass().getResource("join-conference.fxml"));
+        Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
+        stage.getScene().setRoot(root);
+    }
+
+    @FXML
+    protected void onConferencesInWaitingButtonClick(ActionEvent actionEvent) throws IOException
+    {
+        Parent root = FXMLLoader.load(getClass().getResource("waiting-conferences.fxml"));
+        Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
+        stage.getScene().setRoot(root);
+    }
+
+    @FXML
+    protected void onRegisteredConferencesButtonClick(ActionEvent actionEvent) throws IOException
+    {
+        Parent root = FXMLLoader.load(getClass().getResource("registered-conferences.fxml"));
+        Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
+        stage.getScene().setRoot(root);
+    }
+
+    @FXML
+    protected void onManageConferencesButtonClick(ActionEvent actionEvent) throws IOException
+    {
+        Parent root = FXMLLoader.load(getClass().getResource("manage-conferences.fxml"));
+        Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
+        stage.getScene().setRoot(root);
+    }
+
+    @FXML
     protected void onLogOutButtonClick(ActionEvent actionEvent) throws IOException
     {
         Parent root = FXMLLoader.load(getClass().getResource("log-in.fxml"));
         Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
         stage.getScene().setRoot(root);
+    }
+
+    // In view-profile.fxml
+    @FXML
+    protected void onSaveChangesButtonClick(ActionEvent actionEvent) throws IOException
+    {
+
     }
 }

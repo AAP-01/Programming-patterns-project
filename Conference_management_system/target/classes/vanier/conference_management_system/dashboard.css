@@ -1,25 +1,29 @@
 .background
 {
     -fx-background: gray;
+    -fx-background-color: gray;
 }
 
 .title-label
 {
-    -fx-background-color: #b9b9b9;
     -fx-border-radius: 10px;
-    -fx-border-color: black;
-    -fx-background-radius: 10px;
+    -fx-border-color: #535353;
+    -fx-border-width: 5px;
+    -fx-background-color: #b9b9b9;
+    -fx-background-radius: 15px;
 }
 
 .side-bar
 {
-    -fx-border-color: black;
+    -fx-border-color: transparent #535353 transparent transparent;
+    -fx-border-width: 0 5px 0 0;
 }
 
 .side-bar-label
 {
-    -fx-border-color: black;
-    -fx-background-color: white;
+    -fx-border-color: transparent transparent #535353 transparent;
+    -fx-border-width: 0 0 5px 0;
+    -fx-background-color: #b9b9b9;
 }
 
 .side-bar-button
@@ -30,9 +34,15 @@
 .side-bar-button:hover
 {
     -fx-background-color: #535353;
+    -fx-text-fill: white;
 }
 
-.test
+/* view-profile.fxml */
+.profile-vbox
 {
-    -fx-background-color: red;
+    -fx-border-radius: 20px;
+    -fx-border-color: #535353;
+    -fx-border-width: 5px;
+    -fx-background-color: #b9b9b9;
+    -fx-background-radius: 25px;
 }

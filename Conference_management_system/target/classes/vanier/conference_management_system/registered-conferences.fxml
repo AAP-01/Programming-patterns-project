@@ -23,7 +23,7 @@
             </Label>
             <VBox maxHeight="1.7976931348623157E308" prefHeight="931.0" prefWidth="382.0" VBox.vgrow="ALWAYS">
                <children>
-                  <Button mnemonicParsing="false" styleClass="side-bar-button" text="View Profile">
+                  <Button fx:id="viewProfileButton" alignment="TOP_LEFT" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onViewProfileButtonClick" styleClass="side-bar-button" text="View Profile">
                      <font>
                         <Font size="20.0" />
                      </font>
@@ -31,7 +31,7 @@
                         <Insets bottom="10.0" left="20.0" top="10.0" />
                      </VBox.margin>
                   </Button>
-                  <Button mnemonicParsing="false" styleClass="side-bar-button" text="Join a Conference">
+                  <Button fx:id="joinConferenceButton" alignment="TOP_LEFT" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onJoinConferenceButtonClick" styleClass="side-bar-button" text="Join a Conference">
                      <font>
                         <Font size="20.0" />
                      </font>
@@ -39,7 +39,7 @@
                         <Insets bottom="10.0" left="20.0" />
                      </VBox.margin>
                   </Button>
-                  <Button mnemonicParsing="false" styleClass="side-bar-button" text="Registered Conferences">
+                  <Button fx:id="registeredConferencesButton" alignment="TOP_LEFT" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onRegisteredConferencesButtonClick" styleClass="side-bar-button" text="Registered Conferences">
                      <font>
                         <Font size="20.0" />
                      </font>
@@ -47,7 +47,7 @@
                         <Insets bottom="10.0" left="20.0" />
                      </VBox.margin>
                   </Button>
-                  <Button mnemonicParsing="false" styleClass="side-bar-button" text="Conferences in Waiting">
+                  <Button fx:id="conferencesInWaitingButton" alignment="TOP_LEFT" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onConferencesInWaitingButtonClick" styleClass="side-bar-button" text="Conferences in Waiting">
                      <font>
                         <Font size="20.0" />
                      </font>
@@ -56,7 +56,7 @@
                      </VBox.margin>
                   </Button>
                   <Region prefHeight="0.0" prefWidth="0.0" VBox.vgrow="ALWAYS" />
-                  <Button mnemonicParsing="false" styleClass="side-bar-button" text="Manage Conferences">
+                  <Button fx:id="manageConferencesButton" alignment="TOP_LEFT" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onManageConferencesButtonClick" styleClass="side-bar-button" text="Manage Conferences">
                      <font>
                         <Font size="20.0" />
                      </font>
@@ -64,7 +64,7 @@
                         <Insets bottom="10.0" left="20.0" />
                      </VBox.margin>
                   </Button>
-                  <Button fx:id="logOutButton" mnemonicParsing="false" onAction="#onLogOutButtonClick" styleClass="side-bar-button" text="Log out">
+                  <Button fx:id="logOutButton" alignment="TOP_LEFT" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onLogOutButtonClick" styleClass="side-bar-button" text="Log out">
                      <font>
                         <Font size="20.0" />
                      </font>
@@ -78,17 +78,20 @@
       </VBox>
    </left>
    <center>
-      <ScrollPane fitToHeight="true" fitToWidth="true" BorderPane.alignment="CENTER">
+      <ScrollPane fitToHeight="true" fitToWidth="true" styleClass="background" BorderPane.alignment="CENTER">
          <content>
             <VBox alignment="TOP_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308">
                <children>
-                  <Label alignment="CENTER" minHeight="-Infinity" minWidth="-Infinity" styleClass="title-label" text="Registered Conferences" textAlignment="CENTER">
+                  <Label alignment="CENTER" minHeight="-Infinity" minWidth="-Infinity" prefWidth="400.0" styleClass="title-label" text="Registered Conferences" textAlignment="CENTER">
                      <font>
                         <Font name="System Bold" size="30.0" />
                      </font>
                      <VBox.margin>
                         <Insets top="50.0" />
                      </VBox.margin>
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
                   </Label>
                </children>
             </VBox>

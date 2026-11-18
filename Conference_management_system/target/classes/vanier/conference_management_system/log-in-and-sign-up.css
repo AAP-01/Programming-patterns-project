@@ -7,14 +7,16 @@
 {
     -fx-background-color: #b9b9b9;
     -fx-border-radius: 20px;
-    -fx-border-color: black;
-    -fx-background-radius: 20px;
+    -fx-border-color: #535353;
+    -fx-border-width: 5px;
+    -fx-background-radius: 25px;
 }
 
 .information-vbox
 {
-    -fx-border-color: #000000;
+    -fx-border-color: #535353;
     -fx-border-radius: 20px;
+    -fx-border-width: 5px;
     -fx-background-color: white;
-    -fx-background-radius: 20px;
+    -fx-background-radius: 25px;
 }

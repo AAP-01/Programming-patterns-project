@@ -14,8 +14,11 @@
          <VBox.margin>
             <Insets bottom="100.0" />
          </VBox.margin>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
       </Label>
-      <VBox alignment="CENTER" maxWidth="500.0" prefHeight="200.0" prefWidth="500.0" styleClass="information-vbox">
+      <VBox alignment="CENTER" maxWidth="-Infinity" prefHeight="200.0" prefWidth="500.0" styleClass="information-vbox">
          <children>
             <Label text="Sign up">
                <font>
