@@ -1,29 +1,29 @@
 .background
 {
-    -fx-background: gray;
-    -fx-background-color: gray;
+    -fx-background: #0d0d26;
+    -fx-background-color: #0d0d26;
 }
 
 .title-label
 {
     -fx-border-radius: 10px;
-    -fx-border-color: #535353;
+    -fx-border-color: #a6a6a6;
     -fx-border-width: 5px;
-    -fx-background-color: #b9b9b9;
+    -fx-background-color: black;
     -fx-background-radius: 15px;
 }
 
 .side-bar
 {
-    -fx-border-color: transparent #535353 transparent transparent;
+    -fx-border-color: transparent #a6a6a6 transparent transparent;
     -fx-border-width: 0 5px 0 0;
 }
 
 .side-bar-label
 {
-    -fx-border-color: transparent transparent #535353 transparent;
+    -fx-border-color: transparent transparent #a6a6a6 transparent;
     -fx-border-width: 0 0 5px 0;
-    -fx-background-color: #b9b9b9;
+    -fx-background-color: #000000;
 }
 
 .side-bar-button
@@ -33,8 +33,7 @@
 
 .side-bar-button:hover
 {
-    -fx-background-color: #535353;
-    -fx-text-fill: white;
+    -fx-background-color: #7c7c7c;
 }
 
 /* view-profile.fxml */

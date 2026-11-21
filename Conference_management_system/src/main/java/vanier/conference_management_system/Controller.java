@@ -61,7 +61,7 @@ public class Controller
         }
     }
 
-    // In registered-conferences.fxml
+    // In registered-conferences.fxml, view-profile.fxml, join-conference.fxml, manage-conferences.fxml, and waiting-conferences.fxml
     @FXML
     protected void onViewProfileButtonClick(ActionEvent actionEvent) throws IOException
     {

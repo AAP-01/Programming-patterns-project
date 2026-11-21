@@ -1,11 +1,11 @@
 .background
 {
-    -fx-background-color: gray;
+    -fx-background-color: #0d0d26;
 }
 
 .title-label
 {
-    -fx-background-color: #b9b9b9;
+    -fx-background-color: b9b9b9;
     -fx-border-radius: 20px;
     -fx-border-color: #535353;
     -fx-border-width: 5px;
@@ -17,6 +17,6 @@
     -fx-border-color: #535353;
     -fx-border-radius: 20px;
     -fx-border-width: 5px;
-    -fx-background-color: white;
+    -fx-background-color: b9b9b9;
     -fx-background-radius: 25px;
 }
