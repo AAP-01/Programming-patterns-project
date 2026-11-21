@@ -23,16 +23,6 @@ public class Controller
         stage.getScene().setRoot(root);
     }
 
-    // In sign-up.fxml
-    @FXML
-    protected void onLogInHyperlinkClick(ActionEvent actionEvent) throws IOException
-    {
-        Parent root = FXMLLoader.load(getClass().getResource("log-in.fxml"));
-        Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
-        stage.getScene().setRoot(root);
-    }
-
-    // In log-in.fxml
     @FXML
     protected void onLogInButtonClick(ActionEvent actionEvent) throws IOException
     {
@@ -47,8 +37,15 @@ public class Controller
             errorLabel.setVisible(true);
         }
     }
-
     // In sign-up.fxml
+    @FXML
+    protected void onLogInHyperlinkClick(ActionEvent actionEvent) throws IOException
+    {
+        Parent root = FXMLLoader.load(getClass().getResource("log-in.fxml"));
+        Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
+        stage.getScene().setRoot(root);
+    }
+
     @FXML
     protected void onSignUpButtonClick(ActionEvent actionEvent) throws IOException
     {

@@ -10,14 +10,14 @@ public class Application extends javafx.application.Application {
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(Application.class.getResource("log-in.fxml"));
-        Scene scene = new Scene(fxmlLoader.load());
+        Scene scene = new Scene(fxmlLoader.load(), 1920, 1080);
         stage.setTitle("ConCentral");
         stage.setScene(scene);
 
         // Configurations (optional)
         stage.setMaximized(true);   // Covers the whole screen while showing the task bar on top
-        stage.setMinWidth(1920);
-        stage.setMinHeight(1080);
+        stage.setMinWidth(1280);
+        stage.setMinHeight(720);
 
         stage.show();
     }
