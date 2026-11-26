@@ -6,7 +6,9 @@
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.layout.BorderPane?>
-<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
@@ -44,9 +46,16 @@
                   <Insets bottom="100.0" />
                </VBox.margin>
             </StackPane>
-            <HBox alignment="CENTER_LEFT" prefWidth="1531.0" VBox.vgrow="ALWAYS">
+            <GridPane VBox.vgrow="ALWAYS">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
                <children>
-                  <VBox alignment="TOP_CENTER" prefHeight="865.0" prefWidth="250.0" HBox.hgrow="ALWAYS">
+                  <VBox alignment="TOP_CENTER" prefHeight="865.0" prefWidth="250.0">
                      <children>
                         <TableView fx:id="registeredConferencesTableView" minHeight="150.0" minWidth="150.0" prefHeight="500.0" prefWidth="500.0" styleClass="conferences-table">
                           <columns>
@@ -114,7 +123,7 @@
                         </VBox>
                      </children>
                   </VBox>
-                  <VBox prefHeight="865.0" prefWidth="245.0" HBox.hgrow="ALWAYS">
+                  <VBox prefHeight="865.0" prefWidth="245.0" GridPane.columnIndex="1">
                      <children>
                         <Label text="About">
                            <font>
@@ -132,7 +141,7 @@
                      </children>
                   </VBox>
                </children>
-            </HBox>
+            </GridPane>
          </children>
       </VBox>
    </center>
