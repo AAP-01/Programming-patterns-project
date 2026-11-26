@@ -36,7 +36,7 @@
                         <Insets top="50.0" />
                      </StackPane.margin>
                         </Label>
-                  <Button mnemonicParsing="false" styleClass="delete-conference-button" text="Delete" textFill="RED" StackPane.alignment="TOP_RIGHT">
+                  <Button fx:id="deleteConferenceButton" mnemonicParsing="false" styleClass="delete-conference-button" text="Delete conference" textFill="RED" StackPane.alignment="TOP_RIGHT">
                      <font>
                         <Font size="20.0" />
                      </font>
@@ -44,7 +44,7 @@
                         <Insets right="200.0" top="20.0" />
                      </StackPane.margin>
                   </Button>
-                  <Button mnemonicParsing="false" styleClass="save-changes-button" text="Save changes" textFill="WHITE" StackPane.alignment="TOP_RIGHT">
+                  <Button fx:id="saveChangesButton" mnemonicParsing="false" styleClass="save-changes-button" text="Save changes" textFill="WHITE" StackPane.alignment="TOP_RIGHT">
                      <font>
                         <Font size="20.0" />
                      </font>
@@ -87,7 +87,7 @@
                                     <Font size="20.0" />
                                  </font>
                               </Label>
-                              <TextField styleClass="conference-edit-text-box">
+                              <TextField fx:id="idLabel" styleClass="conference-edit-text-box">
                                  <font>
                                     <Font size="20.0" />
                                  </font>
@@ -104,7 +104,7 @@
                                     <Font size="20.0" />
                                  </font>
                               </Label>
-                              <TextField styleClass="conference-edit-text-box">
+                              <TextField fx:id="nameLabel" styleClass="conference-edit-text-box">
                                  <font>
                                     <Font size="20.0" />
                                  </font>
@@ -121,7 +121,7 @@
                                     <Font size="20.0" />
                                  </font>
                               </Label>
-                              <TextField styleClass="conference-edit-text-box">
+                              <TextField fx:id="capacityLabel" styleClass="conference-edit-text-box">
                                  <font>
                                     <Font size="20.0" />
                                  </font>
@@ -138,7 +138,7 @@
                                     <Font size="20.0" />
                                  </font>
                               </Label>
-                              <TextField styleClass="conference-edit-text-box">
+                              <TextField fx:id="availableCapacityLabel" styleClass="conference-edit-text-box">
                                  <font>
                                     <Font size="20.0" />
                                  </font>
@@ -155,7 +155,7 @@
                                     <Font size="20.0" />
                                  </font>
                               </Label>
-                              <TextField styleClass="conference-edit-text-box">
+                              <TextField fx:id="dateLabel" styleClass="conference-edit-text-box">
                                  <font>
                                     <Font size="20.0" />
                                  </font>
@@ -172,7 +172,7 @@
                                     <Font size="20.0" />
                                  </font>
                               </Label>
-                              <TextField styleClass="conference-edit-text-box">
+                              <TextField fx:id="locationLabel" styleClass="conference-edit-text-box">
                                  <font>
                                     <Font size="20.0" />
                                  </font>
@@ -191,7 +191,7 @@
                               <Font name="System Bold" size="30.0" />
                            </font>
                         </Label>
-                        <TextField styleClass="conference-edit-text-box">
+                        <TextField fx:id="descriptionLabel" styleClass="conference-edit-text-box">
                            <VBox.margin>
                               <Insets right="50.0" />
                            </VBox.margin>
@@ -204,7 +204,7 @@
                               <Font name="System Bold" size="30.0" />
                            </font>
                         </Label>
-                        <TextArea prefHeight="366.0" prefWidth="715.0" style="-fx-background-color: #0d0d26;" styleClass="conference-edit-text-box" wrapText="true">
+                        <TextArea fx:id="aboutLabel" prefHeight="366.0" prefWidth="715.0" style="-fx-background-color: #0d0d26;" styleClass="conference-edit-text-box" wrapText="true">
                            <VBox.margin>
                               <Insets bottom="50.0" right="50.0" />
                            </VBox.margin>

@@ -20,7 +20,7 @@
    <center>
       <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
          <children>
-            <StackPane prefWidth="200.0">
+            <StackPane>
                <children>
                         <Label alignment="CENTER" minHeight="-Infinity" minWidth="-Infinity" prefWidth="400.0" styleClass="title-label" text="Conferences in Waiting" textAlignment="CENTER">
                             <font>

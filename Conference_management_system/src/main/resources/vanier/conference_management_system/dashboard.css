@@ -13,7 +13,7 @@
     -fx-background-radius: 15px;
 }
 
-/* side-bar.fxml */
+/* side-bar.fxml and gray buttons */
 .side-bar
 {
     -fx-border-color: transparent #a6a6a6 transparent transparent;
@@ -27,12 +27,12 @@
     -fx-background-color: #000000;
 }
 
-.side-bar-button, .save-changes-button
+.side-bar-button, .save-changes-button, .join-conference-button
 {
     -fx-background-color: transparent;
 }
 
-.side-bar-button:hover,  .save-changes-button:hover
+.side-bar-button:hover,  .save-changes-button:hover, .join-conference-button:hover
 {
     -fx-background-color: #7c7c7c;
 }
