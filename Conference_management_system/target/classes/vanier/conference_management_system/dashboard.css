@@ -41,6 +41,32 @@
     -fx-background-color: maroon;
 }
 
+/* registered-conferences.fxml */
+.leave-conference-button
+{
+    -fx-background-color: transparent;
+}
+
+.leave-conference-button:hover
+{
+    -fx-background-color: maroon;
+}
+
+.conferences-table
+{
+    -fx-border-radius: 20px;
+    -fx-border-color: #535353;
+    -fx-border-width: 5px;
+    -fx-background-color: #b9b9b9;
+    -fx-background-radius: 25px;
+    -fx-text-fill: black;
+}
+
+.conferences-table .label
+{
+    -fx-text-fill: black;
+}
+
 /* view-profile.fxml */
 .profile-vbox
 {
