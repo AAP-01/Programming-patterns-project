@@ -33,7 +33,7 @@
                         <Insets top="50.0" />
                      </StackPane.margin>
                         </Label>
-                  <Button mnemonicParsing="false" styleClass="cancel-registration-button" text="Cancel registration" textFill="RED" StackPane.alignment="TOP_RIGHT">
+                  <Button fx:id="cancelRegistrationButton" mnemonicParsing="false" styleClass="cancel-registration-button" text="Cancel registration" textFill="RED" StackPane.alignment="TOP_RIGHT">
                      <font>
                         <Font size="20.0" />
                      </font>
@@ -69,7 +69,7 @@
                               <Insets left="50.0" right="50.0" />
                            </VBox.margin>
                         </TableView>
-                        <Label text="ID: 12345">
+                        <Label fx:id="idLabel" text="ID: 12345">
                            <VBox.margin>
                               <Insets bottom="10.0" left="70.0" top="20.0" />
                            </VBox.margin>
@@ -77,7 +77,7 @@
                               <Font size="20.0" />
                            </font>
                         </Label>
-                        <Label text="Capacity: 123">
+                        <Label fx:id="capacityLabel" text="Capacity: 123">
                            <VBox.margin>
                               <Insets bottom="10.0" left="70.0" />
                            </VBox.margin>
@@ -85,7 +85,7 @@
                               <Font size="20.0" />
                            </font>
                         </Label>
-                        <Label text="Available capacity: 123">
+                        <Label fx:id="availableCapacityLabel" text="Available capacity: 123">
                            <VBox.margin>
                               <Insets bottom="10.0" left="70.0" />
                            </VBox.margin>
@@ -93,7 +93,7 @@
                               <Font size="20.0" />
                            </font>
                         </Label>
-                        <Label text="Start: DD/MM/YYYY, HH:MM">
+                        <Label fx:id="startDateLabel" text="Start: DD/MM/YYYY, HH:MM">
                            <VBox.margin>
                               <Insets bottom="10.0" left="70.0" />
                            </VBox.margin>
@@ -101,7 +101,7 @@
                               <Font size="20.0" />
                            </font>
                         </Label>
-                        <Label text="End: DD/MM/YYYY, HH:MM">
+                        <Label fx:id="endDateLabel" text="End: DD/MM/YYYY, HH:MM">
                            <VBox.margin>
                               <Insets bottom="10.0" left="70.0" />
                            </VBox.margin>
@@ -109,7 +109,7 @@
                               <Font size="20.0" />
                            </font>
                         </Label>
-                        <Label text="Location: place, city">
+                        <Label fx:id="locationLabel" text="Location: place, city">
                            <VBox.margin>
                               <Insets bottom="10.0" left="70.0" />
                            </VBox.margin>
@@ -121,7 +121,7 @@
                   </VBox>
                   <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1">
                      <children>
-                        <Label text="Status: Pending">
+                        <Label fx:id="statusLabel" text="Status: Pending">
                            <font>
                               <Font name="System Bold" size="30.0" />
                            </font>
@@ -131,7 +131,7 @@
                               <Font name="System Bold" size="30.0" />
                            </font>
                         </Label>
-                        <Label text="lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum " wrapText="true">
+                        <Label fx:id="aboutLabel" text="lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum " wrapText="true">
                            <font>
                               <Font size="20.0" />
                            </font>

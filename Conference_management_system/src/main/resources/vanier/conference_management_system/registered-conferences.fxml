@@ -95,7 +95,7 @@
                                     <Insets bottom="10.0" left="70.0" />
                                  </VBox.margin>
                               </Label>
-                              <Label fx:id="startLabel" text="Start: DD/MM/YYYY, HH:MM">
+                              <Label fx:id="startDateLabel" text="Start: DD/MM/YYYY, HH:MM">
                                  <font>
                                     <Font size="20.0" />
                                  </font>
@@ -103,7 +103,7 @@
                                     <Insets bottom="10.0" left="70.0" />
                                  </VBox.margin>
                               </Label>
-                              <Label fx:id="endLabel" text="End: DD/MM/YYYY, HH:MM">
+                              <Label fx:id="endDateLabel" text="End: DD/MM/YYYY, HH:MM">
                                  <font>
                                     <Font size="20.0" />
                                  </font>

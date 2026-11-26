@@ -27,24 +27,24 @@
     -fx-background-color: #000000;
 }
 
-.side-bar-button
+.side-bar-button, .save-changes-button
 {
     -fx-background-color: transparent;
 }
 
-.side-bar-button:hover
+.side-bar-button:hover,  .save-changes-button:hover
 {
     -fx-background-color: #7c7c7c;
 }
 
 /* Red buttons */
 
-.log-out-button:hover, .leave-conference-button, .cancel-registration-button
+.log-out-button:hover, .leave-conference-button, .cancel-registration-button, .delete-conference-button
 {
     -fx-background-color: transparent;
 }
 
-.log-out-button:hover, .leave-conference-button:hover, .cancel-registration-button:hover
+.log-out-button:hover, .leave-conference-button:hover, .cancel-registration-button:hover, .delete-conference-button:hover
 {
     -fx-background-color: maroon;
 }
@@ -72,4 +72,11 @@
     -fx-border-width: 5px;
     -fx-background-color: #b9b9b9;
     -fx-background-radius: 25px;
+}
+
+/* manage-conferences.fxml */
+.conference-edit-text-box, .conference-edit-text-box .content
+{
+    -fx-background-color:  #1d1d53;
+    -fx-text-fill: white;
 }
